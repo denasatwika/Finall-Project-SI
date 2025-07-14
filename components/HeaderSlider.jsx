@@ -22,11 +22,11 @@ const HeaderSlider = () => {
     },
     {
       id: 3,
-      title: "Power Meets Elegance - Apple MacBook Pro is Here for you!",
+      title: "Get the clean voice from this mic!",
       // offer: "Exclusive Deal 40% Off",
       buttonText1: "Borrow Now",
       buttonText2: "Learn More",
-      imgSrc: assets.header_macbook_image,
+      imgSrc: assets.microphone,
     },
   ];
 

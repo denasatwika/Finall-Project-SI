@@ -43,6 +43,10 @@ import boy_with_laptop_image from "./boy_with_laptop_image.png";
 import sound_system from "./sound_system.png";
 import sofa_banner from "./sofa_banner.png";
 import checkmark from "./checkmark.png";
+import manwithcamera from "./manwithcamera.png";
+import manwithmixer from "./manwithmixer.png";
+import manwithmicrophone from "./manwithmicrophone.png";
+import microphone from "./microphone.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
@@ -99,7 +103,11 @@ export const assets = {
   product_details_page_apple_earphone_image3,
   product_details_page_apple_earphone_image4,
   product_details_page_apple_earphone_image5,
-  checkmark
+  checkmark,
+  manwithcamera,
+  manwithmicrophone,
+  manwithmixer,
+  microphone
 };
 
 export const BagIcon = () => {

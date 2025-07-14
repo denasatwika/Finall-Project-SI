@@ -1,6 +1,7 @@
 import { Inngest } from "inngest";
 import connectDB from "./db";
 import User from "@/models/User";
+import Order from "@/models/Order";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "kelompoksi-inventory-app" });
@@ -65,12 +66,12 @@ export const createUserOrder = inngest.createFunction(
     {
         id: 'create-user-order',
         batchEvents: {
-            maxSize: 25,
+            maxSize: 5,
             timeout: '5s'
         }
     },
     {event: 'order/created'},
-    async (events) => {
+    async ({ events }) => {
 
         const orders = events.map((event)=> {
             return {
@@ -78,7 +79,7 @@ export const createUserOrder = inngest.createFunction(
                 items: event.data.items,
                 amount: event.data.amount,
                 address: event.data.address,
-                data : event.data.date
+                date : event.data.date
             }
         })
 

@@ -85,9 +85,9 @@ const Product = () => {
                         {productData.description}
                     </p>
                     <p className="text-3xl font-medium mt-6">
-                        ${productData.offerPrice}
+                        Rp{productData.offerPrice}
                         <span className="text-base font-normal text-gray-800/60 line-through ml-2">
-                            ${productData.price}
+                            Rp{productData.price}
                         </span>
                     </p>
                     <hr className="bg-gray-600 my-6" />
@@ -117,7 +117,7 @@ const Product = () => {
                             Add to Cart
                         </button>
                         <button onClick={() => { addToCart(productData._id); router.push('/cart') }} className="w-full py-3.5 bg-orange-500 text-white hover:bg-orange-600 transition">
-                            Buy now
+                            Borrow now
                         </button>
                     </div>
                 </div>
