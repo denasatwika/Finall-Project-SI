@@ -47,6 +47,7 @@ import manwithcamera from "./manwithcamera.png";
 import manwithmixer from "./manwithmixer.png";
 import manwithmicrophone from "./manwithmicrophone.png";
 import microphone from "./microphone.png";
+import invo from "./invo.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
@@ -107,7 +108,8 @@ export const assets = {
   manwithcamera,
   manwithmicrophone,
   manwithmixer,
-  microphone
+  microphone,
+  invo
 };
 
 export const BagIcon = () => {
