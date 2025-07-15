@@ -7,19 +7,19 @@ const products = [
     id: 1,
     image: assets.manwithmixer,
     title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    description: "Get the best sound system for your events.",
   },
   {
     id: 2,
     image: assets.manwithmicrophone,
     title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    description: "Experience crystal-clear audio with premium microphone.",
   },
   {
     id: 3,
     image: assets.manwithcamera,
     title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    description: "Borrow the latest camera for good event.",
   },
 ];
 
