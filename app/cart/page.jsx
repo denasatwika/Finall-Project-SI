@@ -19,7 +19,7 @@ const Cart = () => {
             <p className="text-2xl md:text-3xl text-gray-500">
               Your <span className="font-medium text-orange-600">Cart</span>
             </p>
-            <p className="text-lg md:text-xl text-gray-500/80">{getCartCount()} Items</p> // jumlah item di keranjang
+            <p className="text-lg md:text-xl text-gray-500/80">{getCartCount()} Items</p> 
           </div>
           <div className="overflow-x-auto">
             <table className="min-w-full table-auto">
@@ -95,7 +95,7 @@ const Cart = () => {
                           </button>
                         </div>
                       </td>
-                      <td className="py-4 md:px-4 px-1 text-gray-600">Rp{(product.offerPrice * cartItems[itemId]).toFixed(2)}</td> // kalkulasi harga produk dengan jumlah produk
+                      <td className="py-4 md:px-4 px-1 text-gray-600">Rp{(product.offerPrice * cartItems[itemId]).toFixed(2)}</td> 
                     </tr>
                   );
                 })}
