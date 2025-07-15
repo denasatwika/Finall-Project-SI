@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="w-1/2 flex items-center justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">Company</h2>
+            <h2 className="font-medium text-gray-900 mb-5">Organization</h2>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="hover:underline transition" href="#">Home</a>
